@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Desvie!</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="game-container">
+    <canvas id="gameCanvas" width="400" height="600"></canvas>
+
+    <!-- HUD -->
+    <div id="hud">
+      <div id="scoreDisplay">0</div>
+      <button id="btnStart">Começar</button>
+      <button id="btnRestart">Reiniciar</button>
+    </div>
+  </div>
+
+  <!-- Sons -->
+  <audio id="hitSound" src="data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAIlYAAESsAAACABAAZGF0YQcAAAAA/////wD///8A////AP///wD///8A"></audio>
+  <audio id="bossShotSound" src="data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAIlYAAESsAAACABAAZGF0YQcAAAAA/////wD///8A////AP///wD///8A"></audio>
+
+  <!-- Scripts -->
+  <script src="resize.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
